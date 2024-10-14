@@ -1,0 +1,174 @@
+/* Responsive Styles */
+
+/* Large screens (1200px and up) */
+@media screen and (max-width: 1200px) {
+  section {
+    margin: 0 5rem;
+  }
+
+  .project {
+    flex-direction: column;
+  }
+
+  .project-image, .project-description {
+    width: 100%;
+  }
+}
+
+/* Medium screens (992px and up) */
+@media screen and (max-width: 992px) {
+  #profile {
+    height: auto;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+  }
+
+  .about-containers {
+    flex-direction: column;
+  }
+
+  .content {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .get-to-know-me, .my-skills {
+    width: 100%;
+  }
+}
+
+/* Small screens (768px and up) */
+@media screen and (max-width: 768px) {
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
+
+  section {
+    margin: 0 2rem;
+  }
+
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .btn-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contact-info-upper-container {
+    flex-direction: column;
+  }
+}
+
+/* Extra small screens (576px and up) */
+@media screen and (max-width: 576px) {
+  .profilepic {
+    width: 200px;
+    height: 200px;
+  }
+
+  .section__text__p2 {
+    font-size: 1rem;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  #about-me {
+    width: 90%;
+  }
+
+  .skills-list span {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+
+  .project-description h2 {
+    font-size: 1.2rem;
+  }
+
+  .project-description p {
+    font-size: 0.9rem;
+  }
+
+  .contact-info-container p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Ensure images don't overflow their containers */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Improve readability on smaller screens */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+}
+
+/* Adjust layout for better mobile experience */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  #profile {
+    margin-top: 50px;
+    padding: 2rem 0;
+  }
+
+  .section__pic-container {
+    margin-bottom: 2rem;
+  }
+
+  #socials-container {
+    margin-top: 1rem;
+  }
+
+  #projects .btn1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Ensure proper spacing on very small screens */
+@media screen and (max-width: 320px) {
+  .btn {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .skills-list span {
+    font-size: 0.7rem;
+    padding: 4px 8px;
+  }
+}

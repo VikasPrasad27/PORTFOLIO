@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="pro1.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo" onclick="window.location.href='./#desktop-nav'">VIKAS PRASAD</div>
+        <div>
+          <ul class="nav-links">
+            <li  onclick="window.location.href='index.html'">About</li>
+            <li  onclick="window.location.href='./#about-me'">Skillset</li>
+            <li  onclick="window.location.href='./#projects'">Projects</li>
+            <li  onclick="window.location.href='./#contact'">Contact</li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo" onclick="window.location.href='./#desktop-nav'">VIKAS PRASAD</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li  onclick="window.location.href='index.html'">About</li>
+            <li  onclick="window.location.href='./#about-me'">Skillset</li>
+            <li  onclick="window.location.href='./#projects'">Projects</li>
+            <li  onclick="window.location.href='./#contact'">Contact</li>
+          </div>
+        </div>
+      </nav>
+      <div class="info1">
+        <h1>EngiLearn<br>(Collab , Study & Grow)</h1>
+        <p>This page contains the case study of Fabrication website Project which I <strong>developed for a client,</strong> which includes the Project Overview, Tools Used and Live Links to the official product.</p>
+        <p>(IN PROGESS)</p>
+        
+      </div>
+      <div class="overview1">
+        <img src="./assets/Screenshot 2024-10-09 221143.png" alt="p1">
+        <h1 class="overview">PROJECT OVERVIEW</h1>
+        <p class="para">
+            EngiLearn is a comprehensive web platform designed to streamline and enhance the learning experience for engineering students. It offers branch-specific study materials such as previous year papers, reference books, YouTube tutorials, and career roadmaps—all in one place, making it easier for students to access relevant resources.
+        </p>
+        <p class="para">
+            The platform incorporates real-time collaboration through Socket.io, allowing students to post doubts and receive peer support instantly. It also features an AI-powered chatbot that provides personalized assistance, helping with doubt resolution, study tips, and career guidance. Additionally, EngiLearn offers a dedicated space for sharing and discovering hackathons and competitions, encouraging students to apply their knowledge practically.
+        </p>
+       
+      </div>
+      <div class="techstack">
+          <h1 class="overview">TOOLS USED</h1>
+          <div class="techstack1">
+          <h2>REACTJS</h2>
+          <h2>REDUX</h2>
+          <h2>SOCKET.IO</h2>
+          <h2>MONGODB</h2>
+          <h2>POSTMAN</h2>
+          <h2>GITHUB</h2>
+          </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>

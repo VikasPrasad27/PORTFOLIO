@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">VIKAS PRASAD</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#about-me">Skillset</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li id="theme-toggle"><img src="https://cdn-icons-png.flaticon.com/128/12180/12180682.png" alt="theme"></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">VIKAS PRASAD</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#about-me" onclick="toggleMenu()">Skillset</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="profile-container">
+        <div class="profile-image-container">
+          <img src="./assets/Screenshot 2024-10-06 100310.png" alt="Profile picture" class="profilepic">
+        </div>
+        <div class="profile-content">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">VIKAS PRASAD</h1>
+          <p class="section__text__p2">Frontend Developer</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+              Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://linkedin.com/'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/'"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about-me">
+      <h2>About Me</h2>
+      <p>Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology.</p>
+
+      <div class="content">
+          <div class="get-to-know-me">
+              <h3>Get to know me!</h3>
+              <p>
+                  I'm a <strong>Frontend Focused Web Developer</strong> building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <strong>Projects</strong> section.
+              </p>
+              <p>
+                  I'm open to <strong>Job & Internships</strong> opportunities where I can contribute, learn, and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to <a href="#contact">contact me</a>.
+              </p>
+          </div>
+
+          <div class="my-skills">
+              <h3>My Skills</h3>
+              <div class="skills-list">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                  <span>React</span>
+                  <span>Node Js</span>
+                  <span>MongoDB</span>
+                  <span>Postman</span>
+                  <span>GIT</span>
+                  <span>Github</span>
+                  <span>Responsive Design</span>
+                  <span>Tailwind</span>
+                  <span>Terminal</span>
+              </div>
+          </div>
+      </div>
+  </section>
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="container">
+          <div class="project">
+              <div class="project-image">
+                  <img src="./assets/tsh1.png" alt="Onefootball Project">
+              </div>
+              <div class="project-description">
+                  <h2>One Football</h2>
+                  <p>One Football is a responsive sports platform offering real-time highlights, scores, and news from top football leagues. The site fetches live data from various APIs to display match highlights and updates in real-time. Built with React.js, the site leverages Fetch and Axios for API calls, ensuring fast and seamless performance across devices.<br> Technologies Used: React.js, Fetch, Axios, API integration, TailwindCSS, JavaScript.</p>
+                  <button class="btn1" onclick="window.location.href='project1.html'">
+                    CASE STUDY
+                  </button>
+              </div>
+          </div>
+          <div class="project">
+              <div class="project-image">
+                  <img src="./assets/Untitled-2.png" alt="Fabrication Project">
+              </div>
+              <div class="project-description">
+                  <h2>Fabrication Service Website</h2>
+                  <p>I built a responsive website for a fabrication company, showcasing services like custom metalwork, welding, siteworks, and installations. The site features a project portfolio, service details, and a quote request form, all optimized for mobile and desktop. Using REACTJS, CSS3, JavaScript, and Tailwind for frontend development, we ensured responsiveness.
+
+                    <br>Technologies Used: ReactJS, TailwindCSS, JavaScript, SEO tools.</p>
+                  <button class="btn1" onclick="window.location.href='project2.html'">
+                    CASE STUDY
+                  </button>
+              </div>
+              
+          </div>
+          <div class="project">
+            <div class="project-image">
+                <img src="./assets/Screenshot 2024-10-09 221143.png" alt="EngiLearn Project">
+            </div>
+            <div class="project-description">
+                <h2>EngiLearn <br>(Collab , Study & Grow)</h2>
+                <p>EngiLearn is a comprehensive web platform designed to streamline and enhance the learning experience for engineering students. It offers branch-specific study materials such as previous year papers, reference books, YouTube tutorials, and career roadmaps—all in one place, making it easier for students to access relevant resources.
+    
+                  <br>Technologies Used: ReactJS,Redux,Tailwindcss,OPENAI Api, MongoDB.</p>
+                <button class="btn1" onclick="window.location.href='project3.html'">
+                  CASE STUDY
+                </button>
+            </div>
+      </div>
+     
+
+        <!-- <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        /> -->
+      </section>
+      <!-- <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      /> -->
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:vikasicem123@gmail.com">vikasicem123@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

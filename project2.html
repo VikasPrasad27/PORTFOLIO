@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="pro1.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo" onclick="window.location.href='./#desktop-nav'">VIKAS PRASAD</div>
+        <div>
+          <ul class="nav-links">
+            <li  onclick="window.location.href='index.html'">About</li>
+            <li  onclick="window.location.href='./#about-me'">Skillset</li>
+            <li  onclick="window.location.href='./#projects'">Projects</li>
+            <li  onclick="window.location.href='./#contact'">Contact</li>
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo" onclick="window.location.href='./#desktop-nav'">VIKAS PRASAD</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li  onclick="window.location.href='index.html'">About</li>
+            <li  onclick="window.location.href='./#about-me'">Skillset</li>
+            <li  onclick="window.location.href='./#projects'">Projects</li>
+            <li  onclick="window.location.href='./#contact'">Contact</li>
+          </div>
+        </div>
+      </nav>
+      <div class="info1">
+        <h1>FABRICATION SERVICE WEBSITE</h1>
+        <p>This page contains the case study of Fabrication website Project which I <strong>developed for a client,</strong> which includes the Project Overview, Tools Used and Live Links to the official product.</p>
+        <button><a href="https://prasadenterprises.vercel.app/">LIVE DEMO</a></button>
+        
+      </div>
+      <div class="overview1">
+        <img src="./assets/Screenshot 2024-09-12 193342.png" alt="p1">
+        <h1 class="overview">PROJECT OVERVIEW</h1>
+        <p class="para">
+          I designed and developed a single page responsive website for [Prasad Enterprises], a fabrication company specializing in custom metalwork and construction services. The site highlights their range of offerings, including custom fabrication, welding, siteworks, installations, and maintenance. With a mobile-first approach, the website ensures an optimal user experience across all devices. It also features a project portfolio, service descriptions, and a streamlined quote request form to enhance client interaction.
+        </p>
+        <p class="para">
+          The site is integrated with a content management system (CMS), allowing the client to easily update content as needed. SEO best practices were applied to improve search visibility, driving more organic traffic and inquiries. Overall, the website serves as a professional, user-friendly platform that showcases the company’s expertise and attracts potential clients.
+        </p>
+       
+      </div>
+      <div class="techstack">
+          <h1 class="overview">TOOLS USED</h1>
+          <div class="techstack1">
+          <h2>HTML</h2>
+          <h2>CSS</h2>
+          <h2>REACTJS</h2>
+          <h2>POSTMAN</h2>
+          <h2>GITHUB</h2>
+          </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
