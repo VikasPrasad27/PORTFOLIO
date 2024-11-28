@@ -158,6 +158,10 @@ img {
     width: 100%;
     text-align: center;
   }
+  .info1 button{
+    width:150px;
+  }
+}
 }
 
 /* Ensure proper spacing on very small screens */
