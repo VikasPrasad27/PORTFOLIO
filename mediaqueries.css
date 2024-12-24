@@ -161,7 +161,9 @@ img {
   .info1 button{
     width:150px;
   }
-}
+  #contact{
+    margin-top: 0%;
+  }
 }
 
 /* Ensure proper spacing on very small screens */
