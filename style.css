@@ -534,7 +534,7 @@ h2 {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  margin-top: 130px;
+  margin-top: 0px;
 }
 
 .contact-info-upper-container {
@@ -598,4 +598,76 @@ footer p {
   height: 70px;
   width: 70px;
 }
+.qualification__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.qualification__tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.qualification__button {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin: 0 1rem;
+  background-color: transparent;
+  color: #333;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+}
+
+.qualification__active {
+  color: #007bff; /* Blue color for active tab */
+  border-color: #007bff;
+}
+
+.qualification__content {
+  display: none;
+  width: 100%;
+}
+
+.qualification__active.qualification__content {
+  display: block;
+}
+
+.qualification__data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.qualification__rounder {
+  width: 12px;
+  height: 12px;
+  background-color: #007bff;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.qualification__line {
+  width: 2px;
+  height: 100px;
+  background-color: #007bff;
+  position: absolute;
+  left: 5px;
+  top: 10px;
+  z-index: 0;
+}
+
+.qualification__calendar {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+.section__title{
+  text-align: center;
+  margin-top: 100px;
+}
+.section__subtitle{
+  text-align: center;
+  margin-bottom: 50px;
+}
